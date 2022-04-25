@@ -1,0 +1,33 @@
+/* Universal Selector for document, defines all test style */
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+/*  element this sets the background color for the whole page */
+body {
+  background-color: lemonchiffon;
+}
+/*both the header and the footer classes will span the whole width of the page */
+header,
+footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color: #f0ead6;
+  background-color: #191970;
+}
+/*defines the figure width and color */
+figure {
+  width: 200px;
+  background-color: #f0ead6;
+}
+
+/* any class with the highlighted-text label will have bolder text weight */
+.highlighted-text {
+  font-weight: bolder;
+}
+
+/* any id within the html text will have a background color associated  */
+#contact-section {
+  background-color: #f0ead6;
+}
